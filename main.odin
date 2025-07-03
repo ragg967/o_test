@@ -27,8 +27,8 @@ main :: proc() {
 		rl.ClearBackground(rl.ORANGE)
 		rl.BeginDrawing()
 
-		rl.DrawText("Hello, Test!", SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2, 20, rl.WHITE)
 		rl.DrawTexture(player, player_x, player_y, rl.WHITE)
+		rl.DrawText("Hello, Test!", SCREEN_WIDTH / 2 - 50, SCREEN_HEIGHT / 2, 20, rl.WHITE)
 
 		switch {
 		case rl.IsKeyDown(rl.KeyboardKey.S):
