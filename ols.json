@@ -1,0 +1,15 @@
+{
+  "collections": [
+    {
+      "name": "core",
+      "path": "/home/rywatson/Odin/core"
+    },
+    {
+      "name": "vendor",
+      "path": "/home/rywatson/Odin/vendor"
+    }
+  ],
+  "enable_document_symbols": true,
+  "enable_hover": true,
+  "enable_snippets": true
+}
